@@ -1,6 +1,8 @@
 import 'package:app/icecream/icecream.dart';
+import 'package:app/providers/cart_provider.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 // ignore: use_key_in_widget_constructors
 class IcecreamDetailView extends StatelessWidget {
@@ -127,6 +129,21 @@ class IcecreamDetailView extends StatelessWidget {
                         )
                         .toList(),
                   ),
+                ),
+              ),
+              const SizedBox(height: 10),
+              Center(
+                child: ElevatedButton(
+                  onPressed: () {
+                    Provider.of<CartProvider>(context, listen: false)
+                        .addToCart(icecream);
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text('${icecream.flavor} added to cart!'),
+                      ),
+                    );
+                  },
+                  child: const Text('Add to Cart'),
                 ),
               ),
             ],

@@ -1,6 +1,7 @@
-import 'package:app/models/cart_item.dart'; // Import your CartItem
+// lib/providers/cart_provider.dart
+import 'package:app/icecream/icecream.dart';
+import 'package:app/models/cart.dart';
 import 'package:flutter/material.dart';
-import '../icecream/icecream.dart'; // Import your Icecream model
 
 class CartProvider with ChangeNotifier {
   List<CartItem> _items = [];
@@ -8,19 +9,15 @@ class CartProvider with ChangeNotifier {
   List<CartItem> get items => _items;
 
   void addToCart(Icecream icecream) {
-    // Check for existing item
     final existingItem = _items.firstWhere(
       (item) => item.icecream.flavor == icecream.flavor,
-      orElse: () => CartItem(icecream: icecream, quantity: 0), // Default item
+      orElse: () => CartItem(icecream: icecream, quantity: 0),
     );
 
     if (existingItem.quantity > 0) {
-      // If item exists, increase quantity
       existingItem.quantity++;
     } else {
-      // If item doesn't exist, create a new CartItem
-      _items.add(CartItem(
-          icecream: icecream, quantity: 1)); // Add new item with quantity
+      _items.add(CartItem(icecream: icecream));
     }
 
     notifyListeners();
@@ -31,5 +28,17 @@ class CartProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  void clearCart() {
+    _items.clear(); // Clear the cart items
+    notifyListeners(); // Notify listeners for UI updates
+  }
+
   int get totalItems => _items.fold(0, (sum, item) => sum + item.quantity);
+
+  double get totalAmount => _items.fold(
+      0,
+      (sum, item) =>
+          sum +
+          (item.icecream.price *
+              item.quantity)); // Add this line to calculate the total amount
 }
