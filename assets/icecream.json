@@ -1,0 +1,79 @@
+{
+  "icecreams": [
+    {
+      "flavor": "Pistachio",
+      "description": "Delicate pistachio-flavored ice cream",
+      "toppings": ["Crushed Pistachios", "Honey Drizzle"],
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1534706936160-d5ee67737249?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        { "name": "Pistachio Nuts", "quantity": "1/2 cup" },
+        { "name": "Honey", "quantity": "2 tbsp" },
+        { "name": "Heavy Cream", "quantity": "1 1/2 cups" }
+      ]
+    },
+    {
+      "flavor": "Caramel Swirl",
+      "description": "Sweet and buttery caramel ice cream",
+      "toppings": ["Salted Caramel", "Caramel Popcorn"],
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1549395156-e0c1fe6fc7a5?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        { "name": "Caramel Sauce", "quantity": "1/2 cup" },
+        { "name": "Caramel Candy", "quantity": "1/4 cup" },
+        { "name": "Heavy Cream", "quantity": "1 1/4 cups" }
+      ]
+    },
+    {
+      "flavor": "Chocolate",
+      "description": "Rich and indulgent chocolate ice cream",
+      "toppings": ["Caramel Drizzle", "Chopped Nuts", "Cocoa Powder"],
+      "price": 70,
+      "image": "https://images.unsplash.com/photo-1715194803865-54f4358f87ef?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        { "name": "Cocoa Powder", "quantity": "1/2 cup" },
+        { "name": "Whipping Cream", "quantity": "1 1/2 cups" },
+        { "name": "Egg Yolks", "quantity": "4" }
+      ]
+    },
+    {
+      "flavor": "Strawberry",
+      "description": "Sweet and refreshing strawberry flavor",
+      "toppings": ["Fresh Strawberries", "Rainbow Sprinkles"],
+      "price": 65,
+      "image": "https://images.unsplash.com/photo-1534173751091-95c4b3108237?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        { "name": "Strawberries", "quantity": "1 cup" },
+        { "name": "Sugar", "quantity": "1/2 cup" },
+        { "name": "Heavy Cream", "quantity": "1 1/2 cups" }
+      ]
+    },
+    {
+      "flavor": "Mint Chocolate Chip",
+      "description": "Refreshing mint ice cream with chocolate chips",
+      "toppings": ["Mint Leaves", "Chocolate Chips"],
+      "price": 75,
+      "image": "https://www.veganblueberry.com/wp-content/uploads/2020/06/vegan-mint-chocolate-chip-ice-cream-newest.jpg",
+      "ingredients": [
+        { "name": "Mint Extract", "quantity": "1 tbsp" },
+        { "name": "Chocolate Chips", "quantity": "1/2 cup" },
+        { "name": "Heavy Cream", "quantity": "1 1/2 cups" }
+      ]
+    },
+    {
+      "flavor": "Mango Sorbet",
+      "description": "Smooth and refreshing mango sorbet",
+      "toppings": ["Mango Slices", "Mint Leaves"],
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1591677158211-2c2e78f0bcd9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        { "name": "Mango Pulp", "quantity": "2 cups" },
+        { "name": "Sugar", "quantity": "1/2 cup" },
+        { "name": "Lime Juice", "quantity": "1 tbsp" }
+      ]
+    }
+  ]
+}
+
+
+
