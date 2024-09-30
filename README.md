@@ -1,16 +1,1 @@
-# app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A flutter project for an ice cream app. This app displays the different flavours available along with their pictures on the home screen. After clicking on the desired flavour, you can see the ingredients of the ice cream and different toppings available. The add to cart button adds the selected ice cream to the cart where you can see the total amount and finally checkout.
