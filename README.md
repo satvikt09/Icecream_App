@@ -1,2 +1,2 @@
 A flutter project for an ice cream app. This app displays the different flavours available along with their pictures on the home screen. After clicking on the desired flavour, you can see the ingredients of the ice cream and different toppings available. The add to cart button adds the selected ice cream to the cart where you can see the total amount and finally checkout.
-Demo vidue upload: https://github.com/user-attachments/assets/a8983fb0-0c4f-4cc3-b677-f46d6f852461
+Demo video upload: https://github.com/user-attachments/assets/a8983fb0-0c4f-4cc3-b677-f46d6f852461
